@@ -3,10 +3,9 @@
 
 #include <stddef.h>
 
-// Macros estándar para el posicionamiento en archivos
-#define SEEK_SET 0  // Desde el inicio del archivo
-#define SEEK_CUR 1  // Desde la posición actual
-#define SEEK_END 2  // Desde el final del archivo
+#define SEEK_SET 0  
+#define SEEK_CUR 1  
+#define SEEK_END 2  
 
 extern char **__environ;
 
