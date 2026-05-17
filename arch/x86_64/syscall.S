@@ -1,7 +1,7 @@
-.global __syscall6          # 🚀 DOS guiones bajos para que C la encuentre
+.global __syscall6         
 .intel_syntax noprefix
 
-__syscall6:                 # 🚀 DOS guiones bajos aquí también
+__syscall6:                 
     mov rax, rdi    
     mov rdi, rsi    
     mov rsi, rdx    
