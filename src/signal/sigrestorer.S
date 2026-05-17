@@ -2,6 +2,6 @@
 .type __sigrestore, @function
 
 __sigrestore:
-    # En x86_64, la syscall para retornar de una señal (rt_sigreturn) es la número 15
+    # x86_64 syscall (ASSEMBLY IS THE WORST PROGRAMMAING LANGUAGEJJHAFDHA)
     movq $15, %rax
     syscall
