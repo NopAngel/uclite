@@ -1,3 +1,8 @@
+#  	Makefile
+# -------------------------
+# by: NopAngel - angel¿
+#
+
 ARCH       ?= x86_64
 CC         := gcc
 AR         := ar
@@ -64,6 +69,7 @@ strip: all
 	$(Q)$(STRIP) --strip-unneeded $(BIN_DIR)/test_uclite
 
 install: all
-	mkdir -p /usr/local/include/uclite /usr/local/lib
-	cp -r include/* /usr/local/include/uclite/
-	cp $(BIN_DIR)/libuclite.a /usr/local/lib/
+	@mkdir -p /usr/local/include/uclite /usr/local/lib
+	@cp -r include/* /usr/local/include/uclite/
+	@cp $(BIN_DIR)/libuclite.a /usr/local/lib/
+	@echo "    INSTALL     Done"
