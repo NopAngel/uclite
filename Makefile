@@ -1,6 +1,6 @@
-#  	Makefile
-# -------------------------
-# by: NopAngel - angel¿
+#  	    Makefile
+# ---------------------------
+# 	 by: NopAngel - angel¿
 #
 
 ARCH       ?= x86_64
