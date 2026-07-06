@@ -44,7 +44,7 @@ all: $(BIN_DIR)/libuclite.a
 
 $(BIN_DIR)/libuclite.a: $(ALL_OBJS)
 	$(Q)mkdir -p $(BIN_DIR)
-	@echo "   AR          Static: $@$(RESET)"
+	@echo "    AR        Static: $@$(RESET)"
 	$(Q)$(AR) $(ARFLAGS) $@ $(ALL_OBJS)
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
