@@ -27,4 +27,6 @@ static inline long __syscall6(long num, long a1, long a2, long a3, long a4, long
     return ret;
 }
 
+/* lol ?? */ 
+
 #endif
