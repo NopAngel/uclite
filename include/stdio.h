@@ -18,8 +18,9 @@ int fflush(FILE *stream);
 int fputc(int c, FILE *stream);
 unsigned long fwrite(const void *ptr, unsigned long size, unsigned long nmemb, FILE *stream);
 FILE *fopen(const char *pathname, const char *mode);
-int fclose(FILE *stream);
+int fclose(FILE *stream); // ...
 int fgetc(FILE *stream);
 unsigned long fread(void *ptr, unsigned long size, unsigned long nmemb, FILE *stream);
+
 
 #endif
